@@ -1,3 +1,3 @@
 ### patika.dev-DataScience
 
-Data science tasks on the patika.dev
+The data science tasks of the patika.dev
