@@ -24,7 +24,7 @@ Worst case: (27)
 Best case: (2)
 
 ### Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-Avrage case kapsamına girer.
+Average case kapsamına girer.
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
