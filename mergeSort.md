@@ -19,4 +19,4 @@
 
 n = 2^x
 
-x = logn => O(nlogn)
+x = logn --> O(nlogn)
