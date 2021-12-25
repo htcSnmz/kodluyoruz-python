@@ -18,7 +18,9 @@ n + (n-1) + (n-2) + ... + 1 = n*(n+1)/2 ==> O(n^2)
 
 ### Average case: Aradığımız sayının ortada olması, Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 Average case: (16,18)
+
 Worst case: (27)
+
 Best case: (2)
 
 ### Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
