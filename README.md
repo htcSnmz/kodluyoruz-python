@@ -1,3 +1,3 @@
 ### patika.dev-DataScience
 
-The data science tasks of the patika.dev
+This repository contains the data science tasks of the patika.dev
