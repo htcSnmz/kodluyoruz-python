@@ -18,4 +18,5 @@
  ### Big-O gösterimini yazınız.
 
 n = 2^x
+
 x = logn => O(nlogn)
