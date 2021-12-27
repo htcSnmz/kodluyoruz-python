@@ -69,9 +69,20 @@ SET name = 'Penolope'
 WHERE id = 3
 RETURNING *;
 
-```
+
 UPDATE employee
 SET email = ''
 WHERE email LIKE'%gov'
-RETURNING *
+RETURNING *;
 ```
+
+4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+```
+DELETE FROM employee
+WHERE name LIKE 'P%';
+
+
+DELETE FROM employee
+WHERE id < 10;
+```
+
