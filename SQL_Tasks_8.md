@@ -84,5 +84,10 @@ WHERE name LIKE 'P%';
 
 DELETE FROM employee
 WHERE id < 10;
+
+
+DELETE FROM employee
+WHERE name IS NULL
+RETURNING *;
 ```
 
