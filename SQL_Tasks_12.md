@@ -21,16 +21,16 @@ SELECT MAX(rental_rate) FROM film
 3. film tablosunda en düşük rental_rate ve en düşük replacement_cost değerlerine sahip filmleri sıralayınız.
 ```
 (
-	SELECT title FROM film
-	WHERE rental_rate =
+SELECT title FROM film
+WHERE rental_rate =
 	(
-		SELECT MIN(rental_rate) FROM film
+	SELECT MIN(rental_rate) FROM film
 	)
 )
 UNION
 (
-	SELECT title FROM film
-	WHERE replacement_cost =
+SELECT title FROM film
+WHERE replacement_cost =
 	(
 		SELECT MIN(replacement_cost) FROM film
 	)
