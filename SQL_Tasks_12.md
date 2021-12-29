@@ -39,12 +39,9 @@ UNION
 
 4. payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 ```
-SELECT first_name, last_name FROM customer
-JOIN
-(
-  SELECT count(*), customer_id
-  FROM payment
-  GROUP BY customer_id
-  ORDER BY count(*) DESC
-) as X ON X.customer_id = customer.customer_id;
+SELECT SUM(amount), customer.first_name, customer.last_name
+FROM payment
+JOIN customer ON customer.customer_id = payment.customer_id
+GROUP BY payment.customer_id, customer.first_name, customer.last_name
+ORDER BY SUM(amount) DESC;
   ```
