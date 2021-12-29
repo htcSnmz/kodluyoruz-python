@@ -35,6 +35,8 @@ SELECT first_name FROM customer
 
 4. İlk 3 sorguyu tekrar eden veriler için de yapalım.
 ```
+-- 1. SORGU
+
 (
  SELECT first_name FROM actor
 )
@@ -47,6 +49,8 @@ SELECT first_name FROM customer
 
 
 
+-- 2. SORGU
+
 (
  SELECT first_name FROM actor
 )
@@ -57,6 +61,8 @@ SELECT first_name FROM customer
 
 
 
+
+-- 3. SORGU
 
 (
  SELECT first_name FROM actor
